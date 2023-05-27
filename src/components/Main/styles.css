@@ -1,0 +1,14 @@
+.main {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  height: calc(100vh - var(--footer-height) - var(--header-height));
+  overflow-y: auto;
+}
+
+.cards {
+  max-width: var(--cards-container-width);
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}

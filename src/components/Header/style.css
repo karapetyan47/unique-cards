@@ -1,0 +1,10 @@
+.header {
+  padding: var(--header-y-space) var(--header-x-space);
+  height: var(--header-height);
+}
+
+.header_buttons {
+  display: flex;
+  gap: var(--header-x-space);
+  height: 100%;
+}

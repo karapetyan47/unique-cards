@@ -1,0 +1,30 @@
+.card {
+  width: calc(50% - 16px);
+  height: 200px;
+  border: 1px solid;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card > .card_remove {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.card > .card_remove:hover > .icon-button {
+  color: tomato;
+}
+
+.card > .card_content {
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}

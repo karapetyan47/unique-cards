@@ -1,0 +1,4 @@
+.footer {
+  height: var(--footer-height);
+  padding: var(--footer-y-space) var(--footer-x-space);
+}

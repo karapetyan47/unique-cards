@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --header-height: 80px;
+  --footer-height: 80px;
+  --card-space: 8px;
+  --cards-container-width: 900px;
+  --header-x-space: 40px;
+  --header-y-space: 16px;
+  --footer-x-space: var(--header-x-space);
+  --footer-y-space: var(--header-y-space);
+}

@@ -1,0 +1,13 @@
+.page-container {
+  height: 100vh;
+  display: flex;
+}
+
+.page-container > .left {
+  flex: 4;
+}
+
+.page-container > .right {
+  flex: 1;
+  border-left: 1px solid;
+}

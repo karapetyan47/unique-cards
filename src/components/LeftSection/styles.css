@@ -1,0 +1,10 @@
+.left-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.left-section > .main {
+  flex: 1;
+}
